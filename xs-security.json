@@ -61,7 +61,8 @@
     "oauth2-configuration": {
         "token-validity": 3600,
         "redirect-uris": [
-            "https://*-app-app.cfapps.*.hana.ondemand.com/login/callback"
+            "https://**.cfapps.eu10.hana.ondemand.com/**",
+            "https://**.eu10.applicationstudio.cloud.sap/**"
         ]
     }
 }
